@@ -1,0 +1,19 @@
+<?php
+
+function gfi_demo_menu() {
+  $items = array();
+
+  $items['gfi'] = array(
+    'page callback' => '_gfi_demo_homepage',
+    'type' => MENU_NORMAL_ITEM,
+    'title' => 'GFI demo module',
+    'menu_name' => 'main-menu',
+    'access arguments' => array('access content')
+  );
+
+  return $items;
+}
+
+function _gfi_demo_homepage() {
+  return 'cool';
+}

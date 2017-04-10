@@ -6,8 +6,14 @@ profiles/*
 !profiles/lyon
 !profiles/lyon/*
 scripts/*
-sites/*
-!sites/all/modules/gfi
+sites/all/libraries/*
+sites/all/modules/contrib/*
+sites/all/modules/README.txt
+sites/all/themes/*
+sites/all/translations/*
+sites/default/*
+sites/example.sites.php
+sites/README.txt
 themes/*
 !.gitignore
 !lyon.make

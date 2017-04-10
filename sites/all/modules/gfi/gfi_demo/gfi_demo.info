@@ -1,0 +1,6 @@
+name = GFI demo
+description = module de démonstration GFI Lyon
+core = 7.x
+package = GFI
+version = 7.x-1.0
+project = gfi_demo
