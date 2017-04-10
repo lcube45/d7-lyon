@@ -1,0 +1,85 @@
+; Packaging information for ads_core
+name = "lyon"
+description = "socle de base Drupal - Core"
+core = "7.x"
+exclusive = "1"
+
+; -------------------------
+; Dependencies
+; -------------------------
+
+; Core/Coeur
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = image
+dependencies[] = list
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = trigger
+dependencies[] = user
+
+; Administration
+dependencies[] = admin_menu
+dependencies[] = admin_views
+dependencies[] = adminimal_admin_menu
+
+; Chaos tool suite
+dependencies[] = ctools
+
+; Date/Time
+dependencies[] = date
+dependencies[] = date_all_day
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_views
+
+; Development
+dependencies[] = devel
+
+; Features
+dependencies[] = features
+
+; Fields
+dependencies[] = entityreference
+
+; Multilingual
+dependencies[] = l10n_update
+
+; Migrate
+dependencies[] = migrate
+dependencies[] = migrate_ui
+
+; Other
+dependencies[] = diff
+dependencies[] = entity
+dependencies[] = libraries
+dependencies[] = pathauto
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = transliteration
+
+; UUID
+dependencies[] = uuid
+
+; Views
+dependencies[] = views
+dependencies[] = views_ui
+
+; ----------
+; System Requirements
+; ----------
+php_memory_limit = 128M
+php = 5.3
