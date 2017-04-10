@@ -1,0 +1,5 @@
+<?php
+
+function gfi_demo_update_7000() {
+  variable_set('site_slogan', 'my drupal 7');
+}
