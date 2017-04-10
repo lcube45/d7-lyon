@@ -66,6 +66,7 @@ dependencies[] = migrate_ui
 dependencies[] = diff
 dependencies[] = entity
 dependencies[] = libraries
+dependencies[] = module_filter
 dependencies[] = pathauto
 dependencies[] = strongarm
 dependencies[] = token
